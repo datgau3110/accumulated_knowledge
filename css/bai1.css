@@ -1,0 +1,37 @@
+p, span{
+	/*màu chữ*/
+	color: red;
+	
+	/*kích thước chữ*/
+	font-size: 1em; /*hoặc px*/
+	
+	/*canh lề chữ: trái, phải, giữa, đều - bằng;*/
+	text-align: center;
+	
+	/*tăng/giảm độ dày/ đậm của chữ*/
+	font-weight: bold; /*chữ đậm*/
+	
+	/*font chữ*/
+	font-family: arial; /*tùy vào việc lựa chọn font chữ*/
+
+	/*màu nền*/
+	background: yellow;
+
+	/*khoảng hở với biên chứa nó*/
+	box-sizing: border-box; /*padding bên trong vùng, không lấn ra ngoài*/
+	padding: 5px 8px;
+
+	/*định dạng in hoa, in thường hoặc in hoa ký tự đầu tiên*/
+	text-transform: lowercase; /*hoặc uppercase, capitalize*/
+
+}
+/*định dạng chữ cho thẻ liên kết*/
+a{
+	coler: green;
+	/*đường gạch của chữ*/
+	text-decoration: none;
+}
+
+h1, h2, h6{
+	coler: green;
+}

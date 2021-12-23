@@ -1,0 +1,35 @@
+.page{
+	width: 40%;
+	height: 250px;
+	margin: 0 auto;
+	background: green;
+}
+.page .box{
+	float: left;
+	width: 50%;
+	height: 100%;
+	/*background: gray;*/
+}
+.box ul{
+	margin: 0;
+	/*padding: 0;*/
+	padding: 1rem 0rem 1rem 2rem;
+	/*background: yellow;*/
+	list-style-type: square;
+	color: white;
+}
+.box ul li a{
+	text-decoration: none;
+	color: white;
+	/*background: red;*/
+	width: 100%;
+	display: block;
+	padding: 0.7rem 0;
+}
+.box ul li a:hover{
+	color: black;
+}
+/*đổi màu cua li*/
+.box ul li:hover{
+	color: black;
+}

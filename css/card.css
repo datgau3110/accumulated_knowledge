@@ -1,0 +1,23 @@
+.icon{
+	border: 1px solid tomato;
+	font-size: 1.2rem;
+	border-radius: 50%;
+}
+.icon:hover{
+	color: tomato;
+	border: 1px solid green;
+}
+.card-body h4 a:hover{
+	color: tomato;
+	text-decoration: none;
+}
+.card{
+	overflow: hidden;
+}
+.card img{
+	overflow: hidden;
+	transition: all 0.5s ease;
+}
+.card img:hover{
+	transform: scale(1.1);
+}

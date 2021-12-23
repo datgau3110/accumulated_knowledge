@@ -1,0 +1,64 @@
+.login{
+	width: 400px;
+	height: 350px;
+	margin: 0 auto;
+	background: blue;
+
+}
+.login h2{
+	text-align: center;
+	padding: 0.5em 0em;
+	display: block;
+	width: 100%;
+	background: green;
+	text-transform: uppercase;
+	color: white;
+}
+.login label,
+.login input{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.login label{
+	padding: 0.3rem 0;
+	color: red;
+}
+.login input{
+	padding: 0.4rem 0;
+	box-sizing: border-box;
+}
+.login input.btm-login{
+	width: 30%;
+	padding: 0.5rem 0rem;
+	text-transform: uppercase;
+	background: green;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 1rem;
+}
+.login input.user{
+	background-image: url(hinhanh/user.png);
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-position: 0 3px;
+}
+.login input.pass{
+	background-image: url(hinhanh/pass.png);
+	background-size: 22px 22px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-position: 0px 3px; /*trái - top*/
+}
+.login input.btm-login:hover{
+	background: white;
+	color: green;
+}
+.login input.user:focus,
+.login input.pass:focus{
+	color: red;
+	border: 2px solid yellow;
+
+}

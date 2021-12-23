@@ -1,0 +1,16 @@
+table{
+	border-collapse: collapse;
+	/*border-color: blue;*/
+}
+table thead tr th,
+table tbody tr td{
+	padding: 0.5rem 0.7rem;
+}
+table thead tr{
+	text-align: center;
+	border: 2px solid red;
+}
+table tbody tr td{
+	border-style: dotted;
+	background: red;
+}

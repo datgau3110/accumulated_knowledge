@@ -1,0 +1,34 @@
+h1{
+	color: red;
+	text-align:center;
+}
+.page{
+	margin: 0 auto;
+	width: 90%;
+	height: auto;
+	background: green;
+}
+.page .box{
+	float: left;
+	width: 32%;
+	height: 100%;
+	background: green;
+	border-radius: 20px;
+}
+.page .diff{
+	margin: 0 2%;
+}
+.box h2{
+	color: yellow;
+	margin: 0;
+	padding: 0.5em 0.8em;
+	box-sizing: border-box;
+}
+.box p{
+	color: white;
+	margin: 0;
+	padding: 0.5em 0.8em;
+	box-sizing: border-box;
+	text-align: justify;
+	font-size: 1.03em;
+}

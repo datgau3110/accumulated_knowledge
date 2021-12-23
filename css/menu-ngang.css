@@ -1,0 +1,34 @@
+.vung-menu{
+	margin: 0 auto;
+	height: 50px;
+	width: 80%;
+	/*background: green;*/
+}
+.vung-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 100%;
+	width: 100%;
+	/*background: pink;*/
+}
+.vung-menu ul li{
+	float: left;
+	background: red;
+}
+.vung-menu ul li a{
+	margin: 0;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 1rem 4.53rem;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-right: 1px solid white;
+}
+.vung-menu ul li a:hover{
+	color: yellow;
+	background: green;
+}

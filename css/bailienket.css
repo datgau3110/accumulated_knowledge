@@ -1,0 +1,26 @@
+a{
+	text-decoration: none;
+}
+
+
+/*hover link - re chuoy vao lien ket*/
+a.more:hover{
+	color: red;
+	background: yellow;
+}
+
+
+/*định dạng liên kết thanh nút - bottom*/
+a.more{
+	padding: 0.8em 2em;
+	background: gray;
+	/*bo góc*/
+	border-radius:5px;
+	color:white;
+}
+
+
+/*định dạng liên kết trong tiêu đề*/
+h3 a:hover{
+	color: yellow;
+}

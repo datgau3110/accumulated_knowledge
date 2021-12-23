@@ -1,0 +1,54 @@
+a{
+	text-decoration: none;
+}
+.page{
+	margin: 0 auto;
+	width: 80%;
+	height: 360px;
+}
+.page .box{
+	float: left;
+	width: 32%;
+	height: 100%;
+}
+.page .line{
+	float: left;
+	height: 85%;
+	width: 2px;
+	background: black;
+	margin: 0 8.9px;
+}
+.box h2,
+.box a{
+	margin: 0;
+}
+.box h2 a{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 1em 0.8em 0.5em 0.8em;
+	color: black;
+}
+.box h2 a:hover{
+	color: yellow;
+}
+.box p{
+	margin: 0;
+	padding: 0.2em 1em 1em 1.2em;
+}
+.box a.more{
+	float: left;
+	margin: 0;
+	background: black;
+	padding: 0.6em 1.4em;
+	border-radius: 25px;
+	margin-left: 65%;
+	margin-top: 2.5em;
+	color: #fff;
+}
+a.more:hover{
+	color: #14e0a0;
+	background: yellow;
+}
+
+

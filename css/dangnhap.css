@@ -1,0 +1,47 @@
+.panel-footer{
+	
+	margin-top: 6em;
+
+}
+.cut-panel{
+ 	background: #f0f0f0;
+ 	height: 15rem;
+}
+.page-header{
+	margin-top: 6em;
+
+}
+.panel-heading{
+	background: #f0f0f0;
+	padding: 0.5em;
+
+}
+.pull-right {
+    float: right!important;
+}
+a.pull-right{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+a.pull-right:hover{
+	color: red;
+}
+a.snop-bt{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+a.snop-bt:hover{
+	color: red;
+
+}
+
+.arrow{
+	background: #f0f0f0;
+	height: auto;
+
+}
+span{
+	font-size: 14px;
+}

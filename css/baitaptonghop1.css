@@ -1,0 +1,55 @@
+.page{
+	height: 250px;
+	width: 90%;
+	background: black;
+	margin: 0 auto;
+}
+.page .box{
+	float: left;
+	height: 100%;
+	width: 32%;
+/*	background: blue*/
+}
+.page .diff{
+	margin: 0 2%;
+}
+.box h3, .box a{
+	color: white;
+	text-decoration: none;
+	/*background: red;*/
+	margin: 0;
+	padding: 0.7em 0.69em;
+}
+.box h3 a{
+	width: 30%;
+	/*padding: 1em 0 0.5em 0;*/
+	display: block;
+}
+.box .line{
+	height: 2px;
+	width: 90%;
+	margin: 0 auto;
+	background: white;
+}
+.box h3 a:hover{
+	color: green;
+}
+.box p{
+	color: white;
+	font-family: arial;
+	text-align: justify;
+	margin: 1em 1em;
+}
+.box a.more{
+	text-align: center;
+	padding: 0.8em 0.8em;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-left: 80%;
+	margin-bottom: 1em;
+	float: left;
+	/*background: gray;*/
+}
+.box a.more:haver{
+	color: green;
+}

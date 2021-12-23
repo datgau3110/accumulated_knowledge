@@ -1,0 +1,87 @@
+.page{
+	width: 70%;
+	height: 650px;
+	margin: 0 auto;
+	/*background: yellow;*/
+}
+.page .tital{
+	width: 100%;
+	height: 90px;
+	background: blue;
+}
+.page .content{
+	width: 30%;
+	height: 200px;
+	/*background: gray;*/
+	float: left;
+	margin-left: 10px;
+}
+.content .text{
+	width: 100%;
+	height: 20%;
+	background: green;
+	margin:10px 0px;
+}
+.page .nav{
+	width: 30%;
+	height: 480px;
+	background: green;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.page .bot{
+	width: 100%;
+	height: 60px;
+	background: blue;
+	float: left;
+	margin-top: 5px;
+}
+@media screen and (max-width: 720px) {
+	.page .content{
+		width: 20%;
+		height: 40px;
+		margin-left: 2%;
+	}
+	.content .text{
+		height: 20%;
+		width: 100%;
+	}
+	.page .nav{
+		width: 96%;
+		height: 100px;
+		float: none;
+		margin-top: 200px;
+		margin-left: 2%;
+		margin-right: 2%;
+		
+	}
+	.page .tital{
+		height: 40px;
+	}
+	.page .bot{
+		height: 30px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.page .content{
+		width: 96%;
+		float: none;
+		margin-right: 2%;
+		margin-left: 2%;
+
+
+	}
+	.page .nav{
+		float: none;
+		margin-left: 2%;
+		margin-right: 2%;
+		width: 96%;
+	}
+	.page .bot{
+		height: 40px;
+	}
+	.page .tital{
+		height: 50px;
+}

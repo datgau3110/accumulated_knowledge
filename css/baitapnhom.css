@@ -1,0 +1,136 @@
+.page{
+	width: 80%;
+	height: 1000px;
+	margin: 0 auto;
+	background: #4f4d4d;
+}
+.page .box{
+	width: 100%;
+	height: 33.3%;
+	background: #f5f4f2;
+}
+.page .diff{
+	background: #4f4d4d;
+}
+.box .bx{
+	height: 100%;
+	width: 24%;
+	margin: 0 0.37em;
+	float: left;
+}
+.bx .pic{
+	height: 40%;
+	width: 50%;
+	margin: 0 auto;
+}
+.bx .nd{
+	height: 60%;
+	width: 70%;
+	margin: auto;
+}
+.nd h2{
+	text-align: center;
+}
+.nd a{
+	text-decoration: none;
+	color: blue;
+	margin-left: 9em;
+}
+.nd a:hover{
+	color: yellow;
+}
+.pic img{
+	height: 100%;
+	width: 100%;
+}
+.diff .td{
+	height: 15%;
+	width: 100%;
+}
+.diff a{
+	text-decoration: none;
+	padding: 0.2em 0.2em;
+	background: blue;
+	font-size: 15px;
+	margin-left:50em;
+	color: white;
+}
+.diff a:hover{
+	color: yellow;
+}
+.diff h2{
+	color: #db8409;
+	padding: 0em 0em 0em 0.9em;
+}
+
+.diff .picture{
+	width: 100%;
+	height: 50%;
+}
+.picture .pi{
+	width: 30%;
+	height: 100%;
+	background: green;
+	float: left;
+	margin: 0 1.6%;
+}
+.pi img{
+	width: 98.6%;
+	height: 97.2%;
+	border: 2px solid white;
+}
+.pi h4{
+	color: #db8409;
+	
+}
+.pi p{
+	color: white;
+	font-size: 10px;
+}
+.box .content{
+	height: 40%;
+	width: 70%;
+	margin: 0 auto;
+}
+.box .hop{
+	height: 60%;
+	width: 100%;
+}
+.content h1{
+	text-align: center;
+	color: blue;
+	font-family: arial;
+	padding: 0.5em 0 0 0;
+}
+.content p{
+	text-align: center;
+}
+.hop .ac{
+	width: 22%;
+	height: 100%;
+	float: left;
+	margin: 0 1.1em;
+}
+.ac h3{
+	color: blue;
+}
+.ac p{
+	text-transform: capitalize
+}
+.ac a{
+	text-decoration: none;
+	padding: 0.5em 0.5em;
+	background: blue;
+	color: white;
+	margin-left: 70%;
+}
+.ac a:hover{
+	color: yellow;
+}
+
+
+
+
+
+
+

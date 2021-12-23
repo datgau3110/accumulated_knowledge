@@ -1,0 +1,60 @@
+.page{
+	width: 90%;
+	height: 320px;
+	/*background: yellow;*/
+	margin: 0 auto;
+
+}
+.page .box{
+	float: left;
+	width: 32%;
+	height: 100%;
+	background: gray;
+
+  
+}
+.page .diff{
+	margin: 0 2%;
+
+
+}
+.page .box .thoai
+{
+	width: 100%;
+	height: 15%;
+	background: green;
+	float: top;
+	border-radius: 25px 0 0 0;
+}
+.page .box .thoai1
+{
+	width: 100%;
+	height: 15%;
+	background: green;
+	float: top;
+	
+}
+.page .box .thoai2
+{
+	width: 100%;
+	height: 15%;
+	background: green;
+	float: top;
+	border-radius:  0 25px 0 0;
+}
+
+h1 {
+	margin: auto;
+	text-align: center;
+	padding: 2%; }
+p {
+	margin: auto;
+	padding: 3%;
+}
+
+.page .diff1{
+	border-radius: 25px 0 0 25px;
+}
+.page .diff2{
+	border-radius:0 25px 25px 0;
+}

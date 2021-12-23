@@ -1,0 +1,58 @@
+.page{
+	height: 700px;
+	width: 80%;
+	margin: 0 auto;
+	background: blue;
+}
+.page .box{
+	height: 32%;
+	width: 100%;
+	background: pink;
+}
+.page .diff{
+	margin: 2% 0;
+}
+.box .vung{
+	float: left;
+	height: 100%;
+	width: 32%;
+	background: red;
+}
+.box .b{
+	margin:0 2%;
+}
+.box .vung1{
+	height: 100%;
+	width: 24%;
+	float: left;
+	background: gray;
+	margin: 0 0.37em;
+}
+.box .td{
+	width: 100%;
+	height: 20%;
+	background:#abc;
+}
+.box .nd{
+	width: 100%;
+	height: 80%;
+	background:#bca;
+}
+.vung h2{
+	color: white;
+	text-align: center;
+	padding: 3px;
+}
+.vung img{
+	width: 90px;
+	height: 90px;
+	margin: 0 150px;
+}
+.td h3{
+	text-align: center;
+}
+.vung1 img{
+	height: 30%;
+	width: 98.5%;
+	border: 2px solid black;
+}

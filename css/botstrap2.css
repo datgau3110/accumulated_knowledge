@@ -1,0 +1,18 @@
+.intro{
+	background: tomato;
+	height: 700px;
+}
+.intro .sub-intro{
+	background: green;
+	height: auto;
+
+}
+.sub-intro .mycolor{
+	color: #34d356;
+}
+.my-btn{
+	background: tomato;
+	color: white;
+	/*border-radius: 0;*/
+	border: none !important; /*dùng để đề lên code bootstrap*/
+}

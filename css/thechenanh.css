@@ -1,0 +1,22 @@
+img{
+	width: 300px;
+	height: 250px;
+}
+img.hinh1{
+	width: 300px;
+	height: 200px;
+}
+img.hinh2{
+	width: 200px;
+	height: 100px;
+}
+.hinhanh{
+	height: 250px;
+	width: 220px;
+	background: green;
+}
+/*định dạng ảnh trong vùng*/
+.hinhanh img{
+	height: 100%;
+	width: 100%;
+}

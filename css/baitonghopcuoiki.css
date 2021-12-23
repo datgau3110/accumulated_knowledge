@@ -1,0 +1,64 @@
+	.box{
+		height: 450px;
+	}
+.box .box-img{
+	width: 100%;
+	height: 150px;
+	display: flex;
+}
+.box .box-img .img{
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	position: relative;
+	z-index: 0;
+}
+.box .box-img .img img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.box .box-img .title{
+	width: 400px;
+	height: 80%;
+	float: left;
+	border-right: 1px solid gray;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.titel .acxe{
+	margin: 0 5px;
+
+}
+.box .money{
+	width: 20%;
+	height: 20%;
+	font-size: 25px;
+}
+.vung{
+	width: 150px;
+	height: 100px;
+	background: rgba(128, 57, 30, 1);
+	z-index: 1;
+	transition: 1s ease;
+	position: absolute;	
+	margin-top: 10px;
+	opacity: 0;
+}
+.vung:hover{
+	opacity: 1;
+}
+.title a.cae,
+.money a.zzx{
+	text-decoration: none;
+	color: black;
+}
+.title a.cae:hover,
+.money a.zzx:hover{
+	color: #80391e;
+}
+
+
+

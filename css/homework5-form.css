@@ -1,0 +1,55 @@
+.login{
+	width: 600px;
+	height: 500px;
+	background-image: url(hinhanh/2.jpg);
+	margin: 0 auto;
+}
+.login h2{
+	text-align: center;
+	padding: 0.5em 0em;
+	display: block;
+	width: 100%;
+	color: white;
+	text-transform:uppercase; 	 	
+}
+.login .left{
+	width: 50%;
+	height: 60%;
+	float: left;
+
+}
+.login label.u,
+.login input.a{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.login label.u{
+	padding: 1.2rem 0;
+	color: white;
+}
+.login input.a{
+	padding: 0.5rem 0;
+	box-sizing: border-box;
+
+}
+.login .right{
+	width: 50%;
+	height: 60%;
+	float: left;
+}
+.login .b, .I{
+	margin: 1rem 0.5rem 1rem 2rem;
+	float: left;
+	color: white;
+}
+.login button{
+	margin: 1em 25em;
+	padding: 0.5em;
+	color: white;
+	background: #FF9900;
+}
+.login button:hover{
+	color: red;
+	background: green;
+}

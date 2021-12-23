@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/chitiet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>chi tiết</title>
+</head>
+<body>
+    <div class="container-fluid mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="img col-sm-12 col-md-12 col-lg-6">
+                    <div class="text-center img-name">
+                        <img src="https://media-cdn.laodong.vn/Storage/NewsPortal/2019/7/1/741911/Hay-Trao-Cho-Anh-2.jpg" class="figure-img" alt="Son Tung MTP">
+                    </div>
+                </div>
+                <div class="info col-sm-12 col-md-12 col-lg-6 ">
+                    <div class="text-infomation d-block mt-md-1 mt-sm-1 mt-lg-5">
+                        <p><i class="fas fa-user"></i><span class="ml-3"><b>Name: </b>Nguyễn Thanh Tùng</span></p>
+                        <p><i class="fas fa-birthday-cake"></i><span class="ml-3"><b>Date of birth:</b> 05/07/1994</span></p>
+                        <p><i class="fas fa-globe-asia"></i><span class="ml-3"><b>Quốc tịch:</b> Việt Nam</span></p>
+                        <p><i class="fas fa-toolbox"></i><span class="ml-3"><b>Nghề nghiệp:</b> Ca sĩ kiêm sáng tác nhạc, Diễn viên, Rapper, Doanh nhân</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="text-justify"><b>Thông tin:</b> Sinh ra ở thành phố Thái Bình, thời thơ ấu, Tùng thường đi hát ở Cung văn hoá thiếu nhi tỉnh Thái Bình và 
+                học chơi đàn organ. Sau đó, Tùng cùng với các bạn trong lớp thành lập nên một nhóm nhạc, lấy tên là Over Band, bắt đầu sáng 
+                tác và đăng tải các bài hát của mình lên một trang web chuyên về lĩnh vực âm nhạc có tên là LadyKillah. 
+                Tùng bắt đầu nổi tiếng khi phát hành hai đĩa đơn "Cơn mưa ngang qua" và "Em của ngày hôm qua", 
+                đánh dấu mốc khởi đầu cho sự nghiệp của mình. Album đầu tiên trong sự nghiệp của anh là album nhạc phim 
+                Chàng trai năm ấy OST được phát hành vào năm 2014, bao gồm hai đĩa đơn là "Chắc ai đó sẽ về" và "Không phải dạng vừa đâu" đạt được 
+                những thành công lớn về mặt thương mại. Vào năm 2017, Sơn Tùng M-TP được sự công nhận thiện chí hơn từ cộng 
+                đồng mạng sau khi phát hành hai đĩa đơn nằm trong album tuyển tập đầu tiên, m-tp M-TP (2017), là "Lạc trôi" và "Nơi này có anh".
+                 Sơn Tùng M-TP ra mắt album tổng hợp m-tp M-TP vào cùng năm. Hai đĩa đơn "Chạy ngay đi" (2018), "Hãy trao cho anh" (2019) hợp tác 
+                 cùng rapper người Mỹ Snoop Dogg gây tiếng vang và lập nhiều kỷ lục, được truyền thông quốc tế đánh giá cao. Album phòng thu đầu 
+                 tay của anh, Chúng ta, được phát hành vào năm 2021.</p>
+        </div>
+        <div class="container slideshow mt-lg-5 mt-sm-3 mt-md-3">
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="https://media-cdn.laodong.vn/Storage/NewsPortal/2019/11/10/765130/Son-Tung-Mtp.jpg">
+                <img class="mySlides" src="https://afamilycdn.com/150157425591193600/2021/11/24/ngang-16377465496211488306729.png">
+                <img class="mySlides" src="https://media-cdn.laodong.vn/storage/newsportal/2021/5/7/906609/178217789_4692543950.jpg">
+                <img class="mySlides" src="https://cafebiz.cafebizcdn.vn/thumb_w/600/162123310254002176/2021/5/8/photo1620455413677-16204554139811225757403.jpg">
+              </div>
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000);
+            }
+            </script>
+           
+        
+    </div>
+</body>
+</html>

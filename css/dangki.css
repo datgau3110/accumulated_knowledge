@@ -1,0 +1,44 @@
+.arrow{
+	color: red;
+}
+.bg{
+	color: red;
+}
+.line{
+	width: 45%;
+}
+.lin a{
+	text-decoration: none;
+	color: red;
+}
+.lin a:hover{
+	color: black;
+}
+a.pull-right{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+a.pull-right:hover{
+	color: red;
+}
+a.snop-bt{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+a.snop-bt:hover{
+	color: red;
+}
+.arrow{
+
+	height: auto;
+
+}
+span{
+	font-size: 14px;
+}
+span.te{
+	color: red;
+}
+

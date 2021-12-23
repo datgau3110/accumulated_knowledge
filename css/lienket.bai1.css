@@ -1,0 +1,59 @@
+.page{
+	width: 90%;
+	height: auto;
+	/*background: gray;*/
+	margin: 0 auto;
+}
+.page .box{
+	float: left;
+	width: 32%;
+	height: 100%;
+	background: green ;
+	border-radius: 20px;
+}
+.page .diff{
+	margin: 0 2%;
+}
+.box h3,
+.box a{
+	margin: 0;
+	background: green;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+.box h3 a{
+	display: block;
+	width: 100%;
+	padding: 1em 0 0.5em 0;
+}
+.box h3 a:hover{
+	color: red;
+}
+.box .line{
+	width: 90%;
+	height: 3px;
+	background: white;
+	margin: 0 auto;
+}
+.box p{
+	color: white;
+	text-align: justify;
+	padding: 0.8em 0.8em;
+	font-family: arial;
+}
+.box a.more{
+	text-align: center;
+	padding: 0.8em 0.8em;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-left: 38%;
+	margin-bottom: 1em;
+	float: left;
+	background: gray;
+}
+.box a.more:hover{
+	background: red;
+
+}
+

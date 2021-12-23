@@ -1,0 +1,70 @@
+.box{
+	width: 200px;
+	height: 200px;
+	background: green;
+	margin: 0 auto;
+	/*thiết lập các tham số thay đổi đối tượng*/
+	transition-property: background,border-radius; /*thuộc tính nào của đối tượng*/
+	/*bao nhiêu lâu thì hoàn thành*/
+	transition-duration: 1s;
+	/*cấu trúc hình học sẽ được thay đỏi là loại nào*/
+	transition-timing-function: ease-in;
+	/*transition-delay: 0.4s;*/
+
+}
+.box:hover{
+	background: red;
+	border-radius: 50%;
+}
+
+/*trang 11 chapter 2_3_css 3*/
+
+.bx{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 0 1em;
+	/*thay đổi chung về thời gian và hình học*/
+	transition: 1s ease-in;
+}
+.bx1{
+	background: red;
+}
+.bx1:hover{
+	transform: translate(250px,100px); /*dịch chuyễn*/
+}
+.bx2{
+	background: yellow;
+}
+.bx2:hover{
+	transform: rotate(180deg); /*xoay*/
+	transition: 2s ease-in;
+}
+.bx3{
+	background: blue;
+}
+.bx3:hover{	
+	transform: scale(1.2); /*tăng kích thước*/
+}
+.bx4{
+	background: pink;
+}
+.bx4:hover{
+	transform: skew(-360deg);
+}
+.page{
+	width: 700px;
+	height: 150px;
+	margin: 0 auto;
+	background: gray;
+	clear: both;
+}
+.bx5{
+	background: #acc;
+	transition-property: background ;
+	transition: 1s ease-in;
+}
+.bx5{
+	transform: translateX(550px) rotate(360deg);
+	background: red;
+}

@@ -1,0 +1,46 @@
+.page{
+	width: 1300px;
+	height: 500px;
+	margin: 0 auto;
+	background: red;
+}
+.page table{
+	border-collapse: collapse;
+	width: 100%;
+	height: 100%;
+}
+.page table thead tr.titel{
+	background: #cccccc;
+}
+.page thead tr th,
+.page tbody tr td{
+	text-align: center;
+	border: 3px solid white;
+}
+.page thead tr th{
+	padding: 1rem 0;
+}
+.page tbody tr td{
+	color: white;
+	border-bottom: 10px solid white;
+}
+.page tbody tr td.blue{
+	background: #47c6e6;
+}
+.page tbody tr td.green{
+	background: #6bed94;
+}
+.page tbody tr td.red{
+	background: #f5566b;
+}
+.page tbody tr td.xanh{
+	background: #86c2b6;
+}
+.page tbody tr td.oringe{
+	background: #fc7a00;
+}
+
+
+
+
+

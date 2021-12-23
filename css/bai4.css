@@ -1,0 +1,51 @@
+h1{
+	color: red;
+	text-align: center;
+}
+.page{
+	height: auto;
+	width: 90%;
+	background: gray;
+	margin: 0 auto;
+}
+.page .box{
+	width: 75%;
+	height: 50%;
+	float: left;
+	margin: 0 auto;
+}
+.page .box1{
+	width: 25%;
+	height: 50%;
+	float: left;
+	margin: 0 auto;
+}
+.page .box2{
+	width: 25%;
+	height: 50%;
+	margin: 0 auto;
+	float: left;
+}
+.page .diff{
+	float: left;
+}
+.page .diff1{
+	float: left;
+}
+h2{
+	margin: 0;
+	padding: 0.5em 0.6em;
+	box-sizing: border-box;
+}
+p{
+	margin: 0;
+	padding: 0.5em 0.6em;
+	text-align: justify;
+	font-size: 1.06em;
+	box-sizing: border-box;
+}
+a{
+	font-size: 2.5em;
+	color: red;
+	text-decoration: none;
+}
